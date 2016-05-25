@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../_css/styles.css">
-	<title>GLA - League</title>
+	<script type="text/javascript" src="../_js/tabs.js"></script>
+	<title>GLA</title>
 </head>
 <body>
 	<header role="banner">
@@ -20,9 +21,25 @@
 	</header>
 	<main role="main">
 		<article>
-				<p>You GLM league information.</p>
 			<section>
-				
+				<div id="tabs">
+					<ul>
+						<li id="tab1"><a href="tabPanel1">Personal Info</a></li>
+						<li id="tab2"><a href="tabPanel2">Golf Info</a></li>
+						<li id="tab3"><a href="tabPanel3">League Info</a></li>
+					</ul>
+				</div>
+				<div id="containers">
+					<div id="tabPanel1">
+						<p>Place all Personal Info here</p>
+					</div>
+					<div id="tabPanel2">
+						<p>Place all Golf Info here</p>
+					</div>
+					<div id="tabPanel3">
+						<p>Place all League Info here</p>
+					</div>
+				</div>
 			</section>						
 			<section>
 				
